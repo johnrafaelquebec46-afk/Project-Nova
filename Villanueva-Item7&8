@@ -1,2 +1,2 @@
 Item 7: git revert <buggy-commit-hash>
-Item 8: git reflog then git branch <deleted-branch-name> <commit-hash>
+Item 8: git reflog then git branch <deleted-branch-name> <commit-hash> 
