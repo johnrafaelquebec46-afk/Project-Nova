@@ -1,0 +1,9 @@
+Problem 5: Started coding a new feature and made 3 commits on main branch instead of a feature branch.
+Commands:
+git branch new-feature: creates a new branch pointing to these commits
+git reset HEAD~3 --hard: rolls back main branch by 3 commits
+git checkout new-feature: switches working path to the new feature branch
+
+Problem 6: Made changes and commits in a detached HEAD state.
+Commands:
+git switch -c recovery-branch: creates a new branch right where you are to save floating commits
